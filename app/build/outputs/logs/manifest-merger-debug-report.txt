@@ -1,0 +1,141 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /media/muhammed/Home/Dev/android/0_howl/app/src/main/AndroidManifest.xml:2:1-70:12
+	package
+		ADDED from /media/muhammed/Home/Dev/android/0_howl/app/src/main/AndroidManifest.xml:3:5-27
+		INJECTED from /media/muhammed/Home/Dev/android/0_howl/app/src/main/AndroidManifest.xml
+		INJECTED from /media/muhammed/Home/Dev/android/0_howl/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /media/muhammed/Home/Dev/android/0_howl/app/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /media/muhammed/Home/Dev/android/0_howl/app/src/main/AndroidManifest.xml
+		INJECTED from /media/muhammed/Home/Dev/android/0_howl/app/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /media/muhammed/Home/Dev/android/0_howl/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /media/muhammed/Home/Dev/android/0_howl/app/src/main/AndroidManifest.xml
+		INJECTED from /media/muhammed/Home/Dev/android/0_howl/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /media/muhammed/Home/Dev/android/0_howl/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.SEND_SMS
+ADDED from /media/muhammed/Home/Dev/android/0_howl/app/src/main/AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from /media/muhammed/Home/Dev/android/0_howl/app/src/main/AndroidManifest.xml:7:22-64
+uses-permission#android.permission.READ_SMS
+ADDED from /media/muhammed/Home/Dev/android/0_howl/app/src/main/AndroidManifest.xml:8:5-67
+	android:name
+		ADDED from /media/muhammed/Home/Dev/android/0_howl/app/src/main/AndroidManifest.xml:8:22-64
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from /media/muhammed/Home/Dev/android/0_howl/app/src/main/AndroidManifest.xml:9:5-70
+	android:name
+		ADDED from /media/muhammed/Home/Dev/android/0_howl/app/src/main/AndroidManifest.xml:9:22-67
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /media/muhammed/Home/Dev/android/0_howl/app/src/main/AndroidManifest.xml:10:5-81
+	android:name
+		ADDED from /media/muhammed/Home/Dev/android/0_howl/app/src/main/AndroidManifest.xml:10:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /media/muhammed/Home/Dev/android/0_howl/app/src/main/AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from /media/muhammed/Home/Dev/android/0_howl/app/src/main/AndroidManifest.xml:11:22-76
+uses-permission#android.permission.INTERNET
+ADDED from /media/muhammed/Home/Dev/android/0_howl/app/src/main/AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from /media/muhammed/Home/Dev/android/0_howl/app/src/main/AndroidManifest.xml:12:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /media/muhammed/Home/Dev/android/0_howl/app/src/main/AndroidManifest.xml:13:5-80
+	android:name
+		ADDED from /media/muhammed/Home/Dev/android/0_howl/app/src/main/AndroidManifest.xml:13:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /media/muhammed/Home/Dev/android/0_howl/app/src/main/AndroidManifest.xml:14:5-81
+	android:name
+		ADDED from /media/muhammed/Home/Dev/android/0_howl/app/src/main/AndroidManifest.xml:14:22-78
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /media/muhammed/Home/Dev/android/0_howl/app/src/main/AndroidManifest.xml:15:5-81
+	android:name
+		ADDED from /media/muhammed/Home/Dev/android/0_howl/app/src/main/AndroidManifest.xml:15:22-78
+uses-sdk
+ADDED from /media/muhammed/Home/Dev/android/0_howl/app/src/main/AndroidManifest.xml:17:5-19:41
+	android:targetSdkVersion
+		ADDED from /media/muhammed/Home/Dev/android/0_howl/app/src/main/AndroidManifest.xml:19:9-38
+		INJECTED from /media/muhammed/Home/Dev/android/0_howl/app/src/main/AndroidManifest.xml
+		INJECTED from /media/muhammed/Home/Dev/android/0_howl/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /media/muhammed/Home/Dev/android/0_howl/app/src/main/AndroidManifest.xml:18:9-35
+		INJECTED from /media/muhammed/Home/Dev/android/0_howl/app/src/main/AndroidManifest.xml
+		INJECTED from /media/muhammed/Home/Dev/android/0_howl/app/src/main/AndroidManifest.xml
+application
+ADDED from /media/muhammed/Home/Dev/android/0_howl/app/src/main/AndroidManifest.xml:21:5-68:19
+	android:label
+		ADDED from /media/muhammed/Home/Dev/android/0_howl/app/src/main/AndroidManifest.xml:24:9-41
+	android:allowBackup
+		ADDED from /media/muhammed/Home/Dev/android/0_howl/app/src/main/AndroidManifest.xml:22:9-35
+	android:icon
+		ADDED from /media/muhammed/Home/Dev/android/0_howl/app/src/main/AndroidManifest.xml:23:9-45
+activity#nohorjo.application.MainActivity
+ADDED from /media/muhammed/Home/Dev/android/0_howl/app/src/main/AndroidManifest.xml:25:9-35:20
+	android:label
+		ADDED from /media/muhammed/Home/Dev/android/0_howl/app/src/main/AndroidManifest.xml:27:13-35
+	android:taskAffinity
+		ADDED from /media/muhammed/Home/Dev/android/0_howl/app/src/main/AndroidManifest.xml:28:13-68
+	android:name
+		ADDED from /media/muhammed/Home/Dev/android/0_howl/app/src/main/AndroidManifest.xml:26:13-60
+intent-filter#android.intent.action.MAIN+android.intent.category.DEFAULT+android.intent.category.LAUNCHER
+ADDED from /media/muhammed/Home/Dev/android/0_howl/app/src/main/AndroidManifest.xml:29:13-34:29
+action#android.intent.action.MAIN
+ADDED from /media/muhammed/Home/Dev/android/0_howl/app/src/main/AndroidManifest.xml:30:17-69
+	android:name
+		ADDED from /media/muhammed/Home/Dev/android/0_howl/app/src/main/AndroidManifest.xml:30:25-66
+category#android.intent.category.DEFAULT
+ADDED from /media/muhammed/Home/Dev/android/0_howl/app/src/main/AndroidManifest.xml:32:17-76
+	android:name
+		ADDED from /media/muhammed/Home/Dev/android/0_howl/app/src/main/AndroidManifest.xml:32:27-73
+category#android.intent.category.LAUNCHER
+ADDED from /media/muhammed/Home/Dev/android/0_howl/app/src/main/AndroidManifest.xml:33:17-77
+	android:name
+		ADDED from /media/muhammed/Home/Dev/android/0_howl/app/src/main/AndroidManifest.xml:33:27-74
+activity#nohorjo.application.LaunchActivity
+ADDED from /media/muhammed/Home/Dev/android/0_howl/app/src/main/AndroidManifest.xml:36:9-46:20
+	android:label
+		ADDED from /media/muhammed/Home/Dev/android/0_howl/app/src/main/AndroidManifest.xml:38:13-44
+	android:taskAffinity
+		ADDED from /media/muhammed/Home/Dev/android/0_howl/app/src/main/AndroidManifest.xml:39:13-70
+	android:name
+		ADDED from /media/muhammed/Home/Dev/android/0_howl/app/src/main/AndroidManifest.xml:37:13-62
+intent-filter#android.intent.action.MAIN+android.intent.category.DEFAULT+android.intent.category.HOME
+ADDED from /media/muhammed/Home/Dev/android/0_howl/app/src/main/AndroidManifest.xml:40:13-45:29
+category#android.intent.category.HOME
+ADDED from /media/muhammed/Home/Dev/android/0_howl/app/src/main/AndroidManifest.xml:44:17-73
+	android:name
+		ADDED from /media/muhammed/Home/Dev/android/0_howl/app/src/main/AndroidManifest.xml:44:27-70
+service#nohorjo.services.HowlService
+ADDED from /media/muhammed/Home/Dev/android/0_howl/app/src/main/AndroidManifest.xml:48:9-51:19
+	android:enabled
+		ADDED from /media/muhammed/Home/Dev/android/0_howl/app/src/main/AndroidManifest.xml:50:13-35
+	android:name
+		ADDED from /media/muhammed/Home/Dev/android/0_howl/app/src/main/AndroidManifest.xml:49:13-56
+receiver#nohorjo.services.HowlBR
+ADDED from /media/muhammed/Home/Dev/android/0_howl/app/src/main/AndroidManifest.xml:53:9-60:20
+	android:enabled
+		ADDED from /media/muhammed/Home/Dev/android/0_howl/app/src/main/AndroidManifest.xml:55:13-35
+	android:name
+		ADDED from /media/muhammed/Home/Dev/android/0_howl/app/src/main/AndroidManifest.xml:54:13-51
+intent-filter#android.intent.action.BOOT_COMPLETED+nohorjo.howl
+ADDED from /media/muhammed/Home/Dev/android/0_howl/app/src/main/AndroidManifest.xml:56:13-59:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /media/muhammed/Home/Dev/android/0_howl/app/src/main/AndroidManifest.xml:57:17-79
+	android:name
+		ADDED from /media/muhammed/Home/Dev/android/0_howl/app/src/main/AndroidManifest.xml:57:25-76
+action#nohorjo.howl
+ADDED from /media/muhammed/Home/Dev/android/0_howl/app/src/main/AndroidManifest.xml:58:17-55
+	android:name
+		ADDED from /media/muhammed/Home/Dev/android/0_howl/app/src/main/AndroidManifest.xml:58:25-52
+receiver#nohorjo.remote.sms.SMSManager
+ADDED from /media/muhammed/Home/Dev/android/0_howl/app/src/main/AndroidManifest.xml:61:9-67:20
+	android:enabled
+		ADDED from /media/muhammed/Home/Dev/android/0_howl/app/src/main/AndroidManifest.xml:63:13-35
+	android:name
+		ADDED from /media/muhammed/Home/Dev/android/0_howl/app/src/main/AndroidManifest.xml:62:13-57
+intent-filter#android.provider.Telephony.SMS_RECEIVED
+ADDED from /media/muhammed/Home/Dev/android/0_howl/app/src/main/AndroidManifest.xml:64:13-66:29
+action#android.provider.Telephony.SMS_RECEIVED
+ADDED from /media/muhammed/Home/Dev/android/0_howl/app/src/main/AndroidManifest.xml:65:17-82
+	android:name
+		ADDED from /media/muhammed/Home/Dev/android/0_howl/app/src/main/AndroidManifest.xml:65:25-79
