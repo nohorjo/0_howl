@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/media/muhammed/Home/Dev/android/0_howl/app/lib/ncommonutils.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9bd18506ba63ce57bc6144cb07cbe74359dce778">
+        <dex dex="/media/muhammed/Home/Dev/android/0_howl/app/build/intermediates/pre-dexed/debug/ncommonutils_b51f0239521980d12421ee3610ca8734d24be82b.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,4 @@
+#Wed Mar 22 21:10:49 GMT 2017
+base.0=/media/muhammed/Home/Dev/android/0_howl/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+renamed.0=classes.dex
+file.0=/media/muhammed/Home/Dev/android/0_howl/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
