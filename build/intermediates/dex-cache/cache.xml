@@ -10,5 +10,32 @@
         sha1="9bd18506ba63ce57bc6144cb07cbe74359dce778">
         <dex dex="/media/muhammed/Home/Dev/android/0_howl/app/build/intermediates/pre-dexed/debug/ncommonutils_b51f0239521980d12421ee3610ca8734d24be82b.jar" />
     </item>
+    <item
+        is-multidex="true"
+        jar="/media/muhammed/Home/Dev/android/0_howl/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="84b952aaa65be0c1baa66aa61c1383d52a9eabba">
+        <dex dex="/media/muhammed/Home/Dev/android/0_howl/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_fc4aad96333aa596cf9a60920dd641ec7bebde37/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/media/muhammed/Home/Dev/android/0_howl/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="/media/muhammed/Home/Dev/android/0_howl/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_49a0cf1b57cfcfb316b8c2493d43c8813af23a10/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/media/muhammed/Home/Dev/android/0_howl/app/lib/ncommonutils.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9bd18506ba63ce57bc6144cb07cbe74359dce778">
+        <dex dex="/media/muhammed/Home/Dev/android/0_howl/app/build/intermediates/transforms/dex/debug/folders/1000/2/ncommonutils_b51f0239521980d12421ee3610ca8734d24be82b/classes.dex" />
+    </item>
 
 </items>

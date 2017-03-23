@@ -9,6 +9,7 @@ import android.os.IBinder;
 import nohorjo.application.App;
 import nohorjo.output.FileOut;
 import nohorjo.remote.howlserver.HowlComms;
+import nohorjo.settings.SettingsException;
 import nohorjo.settings.SettingsManager;
 
 public class HowlService extends Service {
@@ -42,17 +43,16 @@ public class HowlService extends Service {
 					while (true) {
 						try {
 							try {
-								int interval = Integer
-										.parseInt(SettingsManager.getSetting(INTERVAL_SECONDS, App.INTERVAL_SECONDS));
 								phoneNumber = SettingsManager.getSetting(PHONE_NUMBER);
 								if (phoneNumber != null) {
-									initHowler(interval, phoneNumber);
+									initHowler();
 									break;
 								}
-							} catch (Exception e) {
+							} catch (SettingsException e) {
+								FileOut.println("Phone number not set");
 							}
 							Thread.sleep(3000);
-						} catch (Exception e) {
+						} catch (InterruptedException e) {
 							FileOut.printStackTrace(e);
 						}
 					}
@@ -63,7 +63,7 @@ public class HowlService extends Service {
 		}
 	}
 
-	protected synchronized void initHowler(int interval, String phoneNumber) {
+	protected synchronized void initHowler() {
 		try {
 			HowlComms.init();
 			running = true;
