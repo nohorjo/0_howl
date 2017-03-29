@@ -1,4 +1,0 @@
-#Thu Mar 23 18:52:30 GMT 2017
-base.0=/media/muhammed/Home/Dev/android/0_howl/app/build/intermediates/transforms/dex/debug/folders/1000/2/ncommonutils_b51f0239521980d12421ee3610ca8734d24be82b
-renamed.0=classes.dex
-file.0=/media/muhammed/Home/Dev/android/0_howl/app/build/intermediates/transforms/dex/debug/folders/1000/2/ncommonutils_b51f0239521980d12421ee3610ca8734d24be82b/classes.dex

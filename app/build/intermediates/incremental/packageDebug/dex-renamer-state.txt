@@ -1,7 +1,0 @@
-#Thu Mar 23 18:52:30 GMT 2017
-base.0=/media/muhammed/Home/Dev/android/0_howl/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_49a0cf1b57cfcfb316b8c2493d43c8813af23a10
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=/media/muhammed/Home/Dev/android/0_howl/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_fc4aad96333aa596cf9a60920dd641ec7bebde37/classes.dex
-base.1=/media/muhammed/Home/Dev/android/0_howl/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_fc4aad96333aa596cf9a60920dd641ec7bebde37
-file.0=/media/muhammed/Home/Dev/android/0_howl/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_49a0cf1b57cfcfb316b8c2493d43c8813af23a10/classes.dex
