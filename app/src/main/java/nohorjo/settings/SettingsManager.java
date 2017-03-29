@@ -1,5 +1,13 @@
 package nohorjo.settings;
 
+import android.app.Activity;
+import android.content.SharedPreferences;
+import android.content.pm.PackageManager;
+
+import nohorjo.application.App;
+import nohorjo.common.CommonUtils;
+import nohorjo.output.FileOut;
+
 import static android.Manifest.permission.ACCESS_COARSE_LOCATION;
 import static android.Manifest.permission.ACCESS_FINE_LOCATION;
 import static android.Manifest.permission.INTERNET;
@@ -8,13 +16,6 @@ import static android.Manifest.permission.READ_SMS;
 import static android.Manifest.permission.RECEIVE_SMS;
 import static android.Manifest.permission.SEND_SMS;
 import static android.Manifest.permission.WRITE_EXTERNAL_STORAGE;
-
-import android.app.Activity;
-import android.content.SharedPreferences;
-import android.content.pm.PackageManager;
-import nohorjo.application.App;
-import nohorjo.common.CommonUtils;
-import nohorjo.output.FileOut;
 
 public abstract class SettingsManager {
 
@@ -57,6 +58,15 @@ public abstract class SettingsManager {
 			throw new SettingsException(setting);
 		}
 		return val;
+	}
+
+	public static boolean isSet(String setting){
+		try {
+			getSetting(setting);
+			return true;
+		}catch (SettingsException e){
+			return false;
+		}
 	}
 
 	public static void setSetting(String setting, String value) {
