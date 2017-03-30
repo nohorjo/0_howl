@@ -134,15 +134,23 @@ public abstract class HowlComms {
         lock = true;
         while (lock) {
             try {
-                client.send(tbe.encrypt(App.key(), "H:B").getBytes());
-                client.send((byte) '\4');
-                Thread.sleep(1000);
-            } catch (IOException | EncryptionException | SettingsException | InterruptedException e) {
+                if (client.isAlive()) {
+                    client.send(tbe.encrypt(App.key(), "H:B").getBytes());
+                    client.send((byte) '\4');
+                    Thread.sleep(1000);
+                    return true;
+                }
+            } catch (IOException e) {
                 FileOut.println("Comms dropped");
-                return false;
+            } catch (EncryptionException | SettingsException | InterruptedException e) {
+                FileOut.printStackTrace(e);
             }
         }
-        return true;
+        try {
+            client.close();
+        } catch (IOException e) {
+        }
+        return false;
     }
 
 }

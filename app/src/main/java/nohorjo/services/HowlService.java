@@ -13,6 +13,7 @@ import static nohorjo.settings.SettingsManager.isSet;
 
 public class HowlService extends Service {
     private static boolean running;
+    private static boolean tryingToStart;
 
     @Override
     public IBinder onBind(Intent intent) {
@@ -33,13 +34,16 @@ public class HowlService extends Service {
     }
 
     private void startService() {
-        if (!running || !HowlComms.isAlive()) {
+        if (tryingToStart) {
+            FileOut.println("Already trying to start service");
+        } else if (!running || !HowlComms.isAlive()) {
             FileOut.println("Starting service...");
             App.setContext(this);
             // wait to load phone number
             new Thread() {
                 @Override
                 public void run() {
+                    tryingToStart = true;
                     while (true) {
                         try {
                             if (isSet(PHONE_NUMBER)) {
@@ -53,9 +57,8 @@ public class HowlService extends Service {
                             FileOut.printStackTrace(e);
                         }
                     }
+                    tryingToStart = false;
                 }
-
-                ;
             }.start();
         } else {
             FileOut.println("Service already running");
@@ -67,16 +70,9 @@ public class HowlService extends Service {
             HowlComms.init();
             running = true;
             FileOut.println("Service started!");
-            while (true)
-                continue;
         } catch (Exception e) {
             FileOut.printStackTrace(e);
         }
-    }
-
-    @Override
-    public void onStart(Intent intent, int startId) {
-        onCreate();
     }
 
     @Override
